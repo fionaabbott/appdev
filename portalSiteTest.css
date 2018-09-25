@@ -1,0 +1,85 @@
+/******************* GLOBAL STYLES ********************/
+
+body {
+    /* background: url(https://www.wisc.edu/images/about/hero.jpg); */
+    /*overflow-x: hidden;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.body_border {    
+	background: url(https://www.wisc.edu/images/about/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 90vw;
+    height: 100vh;
+	position: relative;
+	top: 0px;
+    margin: 0 auto;
+}
+
+
+/******************** HEADING****************************** */
+
+.header {
+    border: 50px hidden #c5050c;
+	background-color:  #c5050c;
+	contain: content;
+}
+
+#wfaa_logo {
+    margin-left: 3%;
+}
+
+/****************** LINK BOXES ****************************/
+.link_box {
+    background-color: rgba(255, 255, 255, 0.8);
+    contain: content;
+    border: 5px solid #F0E68C;
+    background-color: rgba(255, 255, 255, 0.8);
+    /*width: 25vw;*/
+    height: 55vh;
+    /*height:100%;*/
+    /*top: 50%;*/
+    /*display: block;*/
+    /*float: left;*/
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2vw;
+    text-decoration: underline;
+}
+/*
+#operational_links {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+*/
+/*** LINKS ****/
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;    
+    margin: 6px;
+}
+a:hover {
+    text-decoration: underline;
+    color:#000
+}
+
+li {
+    font-size: 1.25vw;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+
+
+
+  
